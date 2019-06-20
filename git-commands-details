@@ -1,0 +1,72 @@
+Set Up Git:
+To configure your name and email:-
+
+	git config --global user.name "Your Name"
+	git config --global user.email "youremail@domain.com"
+
+
+To initialize:-
+ 
+	git init
+
+To create branch:-
+
+	git checkout -b devlop  or git branch develop
+
+To clone repository:-
+
+	git clone (url)
+
+To get status:-
+	
+	git status
+
+To add file:-
+
+	git add html/
+
+To commit:-
+
+	git commit -m "message"
+
+To add and message in a command:-(Note : Preffered for single file)
+	
+	git commit -am "message"
+
+To open in code:-
+
+	code .
+
+To get log:-
+
+	git log
+
+To checkout branch:-
+
+	git checkout develop
+
+To get status in one line:-
+
+	git log --oneline
+
+To get complete tree:-
+
+	git log --graph --oneline
+
+To merge branches:-
+	
+	git merge feature/f1
+	git merge --abort
+
+To add remote:-
+
+	git remote add origin master (url)
+
+To Push:-
+
+	git push -u origin master
+
+To Pull:
+
+	git pull (directory path)
+
